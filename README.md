@@ -9,23 +9,23 @@ If you are running on windows, use the `Node.js command prompt`
 Below are some packages we need to configure in order to run the application
 
 Grunt
-```ShellSession
+```Shell
 npm install grunt-cli -g
 ```
 http-server
-```ShellSession
+```Shell
 npm install http-server -g
 ```
 Typescript
-```ShellSession
+```Shell
 npm install typescript -g
 ```
 Typescript definition manager.
-```ShellSession
+```Shell
 npm install tsd -g
 ```
 You can check the typescript definitions available on [definitelytyped.org](definitelytyped.org)
-```ShellSession
+```Shell
 tds install angular --resolve --save
 ```
 
@@ -37,7 +37,7 @@ I like to use [VSCode](https://code.visualstudio.com/) for typescript and node.j
 
 In the first time you need to run the command below:
 
-```ShellSession
+```Shell
 npm install
 grunt uglify
 grunt cssmin
@@ -45,7 +45,7 @@ grunt cssmin
 
 Now you have the files compiled for the first time, you only need to do this:
 
-```ShellSession
+```Shell
 grunt
 ``` 
 
