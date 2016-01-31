@@ -9,7 +9,7 @@ If you are running on windows, use the `Node.js command prompt`
 Below are some packages we need to configure in order to run the application
 
 Grunt
-```
+```ShellSession
 npm install grunt-cli -g
 ```
 http-server
