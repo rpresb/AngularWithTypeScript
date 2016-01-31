@@ -1,5 +1,7 @@
 # AngularWithTypeScript
 
+This project is based on the *Angular with Typescript* course from [pluralsight](http://pluralsight.com)
+
 ## Installing
 
 You must have node.js installed. You can get node.js on [nodejs.org](https://nodejs.org)
@@ -27,6 +29,7 @@ npm install tsd -g
 You can check the typescript definitions available on [definitelytyped.org](definitelytyped.org)
 ```Shell
 tds install angular --resolve --save
+tsd install angular-resource --save
 ```
 
 ## Editor
