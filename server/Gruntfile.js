@@ -53,8 +53,8 @@ module.exports = function (grunt) {
             },
             js: {
                 files: [
-                    '../app/common/*.js',
-                    '../app/common/**/*.js'
+                    '../app/*.js',
+                    '../app/**/*.js'
                 ],
                 tasks: ['uglify']
             },
