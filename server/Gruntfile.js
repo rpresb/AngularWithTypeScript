@@ -26,7 +26,8 @@ module.exports = function (grunt) {
             my_target: {
                 files: {
                     '../public/js/all.min.js': [
-                        '../app/**/*.js'
+                        '../app/**/*.js',
+                        '../app/*.js'
                     ]
                 }
             }
@@ -52,7 +53,6 @@ module.exports = function (grunt) {
             },
             js: {
                 files: [
-                    '../scripts/*.js',
                     '../app/common/*.js',
                     '../app/common/**/*.js'
                 ],
@@ -79,5 +79,4 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('default', ['connect', 'open', 'watch', 'cssmin', 'uglify']);
-
 }

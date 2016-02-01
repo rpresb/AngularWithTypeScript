@@ -1,4 +1,4 @@
 module app.common {
-    angular.module('commom.services',
+    angular.module('common.services',
         ['ngResource']);
 }

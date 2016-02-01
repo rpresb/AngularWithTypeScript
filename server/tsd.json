@@ -9,10 +9,13 @@
       "commit": "3d2f9971a107e2eee2de3ec5318f5c54071e16ed"
     },
     "angularjs/angular.d.ts": {
-      "commit": "3d2f9971a107e2eee2de3ec5318f5c54071e16ed"
+      "commit": "717a5fdb079f8dd7c19f1b22f7f656dd990f0ccf"
     },
     "jquery/jquery.d.ts": {
-      "commit": "3d2f9971a107e2eee2de3ec5318f5c54071e16ed"
+      "commit": "717a5fdb079f8dd7c19f1b22f7f656dd990f0ccf"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "717a5fdb079f8dd7c19f1b22f7f656dd990f0ccf"
     }
   }
 }

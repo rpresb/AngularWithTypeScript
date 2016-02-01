@@ -30,6 +30,7 @@ You can check the typescript definitions available on [definitelytyped.org](defi
 ```Shell
 tds install angular --resolve --save
 tsd install angular-resource --save
+tsd install angular-mocks --save
 ```
 
 ## Editor
