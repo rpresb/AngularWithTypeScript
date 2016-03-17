@@ -28,7 +28,7 @@ npm install tsd -g
 ```
 You can check the typescript definitions available on [definitelytyped.org](definitelytyped.org)
 ```Shell
-tds install angular --resolve --save
+tsd install angular --resolve --save
 tsd install angular-resource --save
 tsd install angular-mocks --save
 ```
